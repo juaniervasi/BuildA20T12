@@ -18,6 +18,6 @@ MonoBehaviour:
   cardName: "Agua reutilizada. Demanda del sector agr\xEDcola"
   cardDescription: "Mercado. Creando demanda del sector agr\xEDcola"
   cardBackground: {fileID: 21300000, guid: e218739f4a7d75144abb075cbe71ed0a, type: 3}
-  moneyCost: 0
-  timeCost: 0
-  peopleHappiness: 0
+  moneyCost: 1
+  timeCost: 1
+  peopleHappiness: 1

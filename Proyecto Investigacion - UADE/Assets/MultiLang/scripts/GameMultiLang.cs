@@ -16,20 +16,23 @@ public class GameMultiLang : MonoBehaviour
 	[SerializeField] string defaultLang = "en";
 
 
-	void Awake ()
+	private void Awake()
 	{
-		if (Instance == null) {
+		if (Instance == null) 
+		{
 			Instance = this;
-			DontDestroyOnLoad (gameObject);
-		} else {
-			Destroy (gameObject);
+			DontDestroyOnLoad(gameObject);
+		} 
+		else 
+		{
+			Destroy(gameObject);
 		}
 
-		LoadLanguage ();
+		LoadLanguage();
 	}
 
 
-	void LoadLanguage ()
+	private void LoadLanguage()
 	{
 		if (Fields == null)
 			Fields = new Dictionary<string, string> ();
@@ -57,7 +60,7 @@ public class GameMultiLang : MonoBehaviour
 		}
 	}
 
-	public static string GetTraduction (string key)
+	public string GetTraduction (string key)
 	{
 		if (!Fields.ContainsKey (key)) {
 			Debug.Log ("There is no key with name: [" + key + "] in your text files");
@@ -66,6 +69,4 @@ public class GameMultiLang : MonoBehaviour
 
 		return Fields [key];
 	}
-
-
 }

@@ -20,6 +20,6 @@ MonoBehaviour:
     proveedores de servicios para dar servicio en \xE1reas desatendidas en un contexto
     de pragmatismo, gradualismo y flexibilidad."
   cardBackground: {fileID: 21300000, guid: e218739f4a7d75144abb075cbe71ed0a, type: 3}
-  moneyCost: 0
-  timeCost: 0
-  peopleHappiness: 0
+  moneyCost: 1
+  timeCost: 1
+  peopleHappiness: 1

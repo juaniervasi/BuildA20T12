@@ -9,15 +9,8 @@ public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
     private enum DropZoneType { DECK_OF_CARDS, BOARD };
     
     [SerializeField] private DropZoneType _dropZoneType = DropZoneType.BOARD;
-    [SerializeField] private FindGameManager _gameManagerFinder;
 
     private Draggable _draggeable = null;
-    private GameManager _gameManagerRef;
-
-    private void Start()
-    {
-        _gameManagerRef = _gameManagerFinder.GetGameManagerReference();
-    }
 
     public void OnDrop(PointerEventData eventData)
     {
@@ -54,17 +47,17 @@ public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
     {
         if(draggeable.Played == false && _dropZoneType == DropZoneType.BOARD)
         {
-            if(_gameManagerRef.CurrentCoins >= cardCost)
+            if(GameManager.instance.CurrentCoins >= cardCost)
             {
                 draggeable.Played = true;
-                _gameManagerRef.ChangeCoins(-cardCost);
+                GameManager.instance.ChangeCoins(-cardCost);
                 draggeable.ChangeParent(this.transform);
             }
         }
         else if (draggeable.Played == true && _dropZoneType == DropZoneType.DECK_OF_CARDS)
         {
             draggeable.Played = false;
-            _gameManagerRef.ChangeCoins(cardCost);
+            GameManager.instance.ChangeCoins(cardCost);
             draggeable.ChangeParent(this.transform);
         }
     }

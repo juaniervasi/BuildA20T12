@@ -9,16 +9,8 @@ public class BoardManager : MonoBehaviour
     [SerializeField] private GameObject _playerDeckOfCards;
     [SerializeField] private GameObject _usedCardsContainer; 
     [SerializeField] private float _sizeOfUsedCards = 0.8f;
-    [SerializeField] private FindGameManager _gameManagerFinder;
-
-    private GameManager _gameManagerRef;
 
     private List<GameObject> _cardsPlayed;
-
-    private void Start()
-    {
-        _gameManagerRef = _gameManagerFinder.GetGameManagerReference();
-    }
 
     public void ResetGameScene()
     {
@@ -56,7 +48,7 @@ public class BoardManager : MonoBehaviour
             Destroy(played);//Removes Draggeable component
 
             float cardCost = card.GetComponent<CardDisplay>().CardCost;
-            _gameManagerRef.ChangeCoins(_cardsPlayed.Count * cardCost);
+            GameManager.instance.ChangeCoins(_cardsPlayed.Count * cardCost);
         }
     }
 
@@ -78,7 +70,7 @@ public class BoardManager : MonoBehaviour
 
             float cardCost = card.GetComponent<CardDisplay>().CardCost;
 
-            _gameManagerRef.ChangeCoins(_cardsPlayed.Count * cardCost);
+            GameManager.instance.ChangeCoins(_cardsPlayed.Count * cardCost);
         }
     }
 }

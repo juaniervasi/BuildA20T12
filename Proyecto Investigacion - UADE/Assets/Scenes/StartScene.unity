@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0004076237, g: 0.008068745, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.0025789337, g: 0.054772474, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3795,12 +3795,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165054206}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: 4c9650ea740214147bf67a7fdcb7c720, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -7406,12 +7405,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298940743}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: 2d4acb4a2dc0aac408f558fda39504ef, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -8968,12 +8966,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355104597}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: e75d23bb91796a64bb3da3c4044a451b, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -9252,12 +9249,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359535515}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: d01fca09baba54e46988818a3ea2d6cf, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -10996,7 +10992,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &404119725
 Canvas:
   m_ObjectHideFlags: 0
@@ -11542,12 +11538,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434983170}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: 5a68936b74e77d84bac3e3957bad4a06, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -13279,12 +13274,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468726073}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: 848ab56751993ba45a833af94c7d4e24, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -18079,12 +18073,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686758195}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: 080b098612edf37419117ab706afe050, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -18413,12 +18406,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 695645735}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: 5e941634670773944b955c9c6775b360, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -18833,12 +18825,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 728351187}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: 4ab7e9824f6a52a4fa8067173498de1c, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -21316,12 +21307,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822833022}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: 5f6f36521846b7947853396fed1a8ed3, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -22484,6 +22474,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839972403}
   m_CullTransparentMesh: 0
+--- !u!1 &842525856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 842525858}
+  - component: {fileID: 842525857}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &842525857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842525856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2225b77238a7e07409264b9bfea98fe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cardsIDsToActivate: []
+  _amountOfPlays: 3
+--- !u!4 &842525858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842525856}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &850486726
 GameObject:
   m_ObjectHideFlags: 0
@@ -23491,12 +23526,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 888022569}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: ee0acb260a7219f43bf0b6dcb5ef7ae7, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -25382,6 +25416,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942485115}
   m_CullTransparentMesh: 0
+--- !u!1001 &945494803
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1426625640135186, guid: fdce7a722c35906468292c084d7fc8c5, type: 3}
+      propertyPath: m_Name
+      value: _GameMultiLang_Script
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934821305707076, guid: fdce7a722c35906468292c084d7fc8c5, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934821305707076, guid: fdce7a722c35906468292c084d7fc8c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 164
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934821305707076, guid: fdce7a722c35906468292c084d7fc8c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 489.136
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934821305707076, guid: fdce7a722c35906468292c084d7fc8c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934821305707076, guid: fdce7a722c35906468292c084d7fc8c5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934821305707076, guid: fdce7a722c35906468292c084d7fc8c5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934821305707076, guid: fdce7a722c35906468292c084d7fc8c5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934821305707076, guid: fdce7a722c35906468292c084d7fc8c5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934821305707076, guid: fdce7a722c35906468292c084d7fc8c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934821305707076, guid: fdce7a722c35906468292c084d7fc8c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934821305707076, guid: fdce7a722c35906468292c084d7fc8c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fdce7a722c35906468292c084d7fc8c5, type: 3}
 --- !u!1 &952366980
 GameObject:
   m_ObjectHideFlags: 0
@@ -29534,12 +29625,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135428735}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: 572cccd12cfa59b4e985ffd9a8f2277c, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -31590,12 +31680,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180229520}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: fec092d92930e8f4b85aaa11527abbd3, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -33464,12 +33553,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281289727}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: d894e2cf0f86ca646ab6f0df28a8cb81, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -34528,12 +34616,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1323661532}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: 35a2f1ba35ec5ed48955f1024a3602cd, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -37956,12 +38043,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1457474419}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: 107521a25aa6ace41bf673a568976536, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -38485,7 +38571,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: 9581b15e055b1e54581a609a90d6c61c, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -39558,12 +39643,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1521279274}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: 007fe187eaf32ea4c8b0b2b2d55da653, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -41674,12 +41758,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1603283913}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: 0069ddb5a3434074db86d133d791186c, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -44147,12 +44230,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1682197434}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: ac55caf8e0a4aa144bf3efda2cd41a7a, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -49593,12 +49675,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1934519821}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: 84ad5fa85a7651543821c1583dc9d32d, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -49998,12 +50079,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1951976663}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: e3e42bc224ef98049b2cf5e6dd321d7d, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}
@@ -51266,12 +51346,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1984482632}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261b4f6e21d01f44b9fdce06179afc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManagerFinder: {fileID: 28490857}
   _cameraControllerRef: {fileID: 1610376955}
   _provincePropertiesScriptable: {fileID: 11400000, guid: b6b658ed23c14b04cbea5ca7c74edb93, type: 2}
   _backButtonOffset: {x: 49, y: -31.5, z: 0}

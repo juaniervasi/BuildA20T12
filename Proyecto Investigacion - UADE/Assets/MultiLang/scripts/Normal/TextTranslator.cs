@@ -12,6 +12,6 @@ public class TextTranslator : MonoBehaviour
 
 	void Start ()
 	{
-		GetComponent <Text> ().text = GameMultiLang.GetTraduction (key);
+		GetComponent<Text>().text = GameMultiLang.Instance.GetTraduction (key);
 	}
 }

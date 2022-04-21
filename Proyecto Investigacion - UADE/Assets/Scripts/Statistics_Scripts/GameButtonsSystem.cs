@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class GameButtonsSystem : MonoBehaviour
 {
-    [SerializeField] private FindGameManager _gameManagerFinder;
-
     [SerializeField] private GameObject _helpButton;
     [SerializeField] private GameObject _backButton;
     [SerializeField] private GameObject _finishMatchButton;
@@ -35,7 +33,7 @@ public class GameButtonsSystem : MonoBehaviour
 
     private void Awake()
     {
-        _gameManagerRef = _gameManagerFinder.GetGameManagerReference();
+        _gameManagerRef = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         _gameManagerRef.OnFinishPlays += OnFinishPlaysHandler;
     }
 

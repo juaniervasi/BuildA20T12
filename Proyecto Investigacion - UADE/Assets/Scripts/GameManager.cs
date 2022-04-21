@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
+
     [SerializeField] private string[] _cardsIDsToActivate;
     [SerializeField] private int _amountOfPlays = 5;
 
@@ -23,6 +25,16 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        if (GameManager.instance == null)
+        {
+            GameManager.instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
         InitGameManagerEntity();
     }
 

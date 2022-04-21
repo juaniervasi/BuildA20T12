@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class ProvinceBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
-    [SerializeField] private FindGameManager _gameManagerFinder;
     [SerializeField] private InteractiveMapCameraController _cameraControllerRef;
     [SerializeField] private ProvinceProperties _provincePropertiesScriptable;
 
@@ -26,8 +25,6 @@ public class ProvinceBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerEx
     [SerializeField] private AudioClip _hoverProvinceAudio;
     [SerializeField] private AudioClip _clickProvinceAudio;
 
-    private GameManager _gameManagerRef;
-
     private Image _imageRef;
     private Sprite _initialSprite;
 
@@ -44,11 +41,6 @@ public class ProvinceBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerEx
         _interactiveMapButtonRef.OnBackButtonPressed += OnBackButtonPressedHandler;
 
         InitializeImageAndSprite();
-    }
-
-    private void Start()
-    {
-        _gameManagerRef = _gameManagerFinder.GetGameManagerReference();
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -70,8 +62,8 @@ public class ProvinceBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerEx
             _currentImageColor.a = 100;
             _imageRef.color = _currentImageColor;
 
-            _gameManagerRef.ResetInitValues();
-            _gameManagerRef.InitGameManagerProperties(_provincePropertiesScriptable);
+            GameManager.instance.ResetInitValues();
+            GameManager.instance.InitGameManagerProperties(_provincePropertiesScriptable);
 
             _provinceAudioSource.clip = _clickProvinceAudio;
             _provinceAudioSource.Play();

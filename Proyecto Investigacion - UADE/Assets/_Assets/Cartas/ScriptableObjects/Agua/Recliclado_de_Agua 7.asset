@@ -20,6 +20,6 @@ MonoBehaviour:
     del agua comprada. La eliminaci\xF3n del agua usada reducir\xE1 la cantidad de
     productos qu\xEDmicos utilizados para la limpieza."
   cardBackground: {fileID: 21300000, guid: a68142048ddd88448aae32c7a5fcbffe, type: 3}
-  moneyCost: 0
-  timeCost: 0
-  peopleHappiness: 0
+  moneyCost: 1
+  timeCost: 1
+  peopleHappiness: 1
