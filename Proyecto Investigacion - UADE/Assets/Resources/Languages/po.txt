@@ -356,3 +356,6 @@ ACU_5=> Poluição industrial: efluentes com pouco ou nenhum tratamento
 ACU_6=> Contaminação de esgoto: descargas mal tratadas, descargas de lama e drenos clandestinos, casas com câmaras sépticas e poços de infiltração
 ACU_7=> Resíduos Sólidos: destinação incorreta, geração de 10 mil toneladas / dia
 ACU_8=Melhorar a qualidade de vida dos habitantes da bacia, recuperar o meio ambiente em todos os seus componentes
+
+NEXT_PAGE= Sig Pagina >
+PREV_PAGE= < Ant Pagina

@@ -356,3 +356,5 @@ ACU_5=> Pollution industrielle : effluents peu ou pas traités
 ACU_6=> Contamination des eaux usées : rejets insuffisamment traités, rejets de boue et drains clandestins, maisons avec chambres septiques et puits d'infiltration
 ACU_7=> Déchets solides : élimination incorrecte, génération de 10 mille tonnes/jour
 ACU_8=Améliorer la qualité de vie des habitants du bassin, récupérer l'environnement dans toutes ses composantes
+NEXT_PAGE= Page Suivante >
+PREV_PAGE= < Page précédente

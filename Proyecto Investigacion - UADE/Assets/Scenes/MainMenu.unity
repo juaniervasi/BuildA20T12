@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.00096262374, g: 0.019648472, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.0011491828, g: 0.027741523, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2383,7 +2383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &555112536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2477,7 +2477,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 555112535}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -6445,6 +6445,7 @@ GameObject:
   - component: {fileID: 1166082510}
   - component: {fileID: 1166082512}
   - component: {fileID: 1166082511}
+  - component: {fileID: 1166082513}
   m_Layer: 5
   m_Name: BackText
   m_TagString: Untagged
@@ -6568,6 +6569,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1166082509}
   m_CullTransparentMesh: 0
+--- !u!114 &1166082513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166082509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e994fffe7d194c4b85351aaf19b0dd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: PREV_PAGE
 --- !u!1 &1188215627
 GameObject:
   m_ObjectHideFlags: 0
@@ -10801,8 +10815,9 @@ GameObject:
   - component: {fileID: 2024821731}
   - component: {fileID: 2024821733}
   - component: {fileID: 2024821732}
+  - component: {fileID: 2024821734}
   m_Layer: 5
-  m_Name: BackText
+  m_Name: NextText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10924,6 +10939,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2024821730}
   m_CullTransparentMesh: 0
+--- !u!114 &2024821734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024821730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e994fffe7d194c4b85351aaf19b0dd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: NEXT_PAGE
 --- !u!1 &2041462495
 GameObject:
   m_ObjectHideFlags: 0
